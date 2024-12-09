@@ -1,0 +1,28 @@
+@model IEnumerable<VolunteerManagement.Domain.Entities.Activity>
+
+<h1>Actividades</h1>
+
+<a class="btn btn-primary" asp-area="" asp-controller="Activities" asp-action="Create">Nuevo Actividad</a>
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th>Nombre</th>
+            <th>Descripcion</th>
+            <th>Acciones</th>
+        </tr>
+    </thead> 
+    <tbody>
+        @foreach (var activity in Model)
+        {
+            <tr>
+                <td>@activity.Name</td>
+                <td>@activity.Description</td>
+                <td>
+                    <a class="btn btn-warning" href="@Url.Action("Edit", "Activities", new { id = activity.Id })">Editar</a>
+                    <a class="btn btn-danger" href="@Url.Action("Delete", "Activities", new { id = activity.Id })">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>

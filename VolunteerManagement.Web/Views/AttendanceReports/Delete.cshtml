@@ -1,0 +1,20 @@
+@model VolunteerManagement.Domain.Entities.AttendanceReport
+
+<h1>Eliminar Reporte de Asistencia</h1>
+
+<div>
+    <h4>¿Estás seguro de que deseas eliminar este reporte?</h4>
+    <dl class="row">
+        <dt class="col-sm-2">Voluntario</dt>
+        <dd class="col-sm-10">@ViewBag.VolunteerName</dd>
+        
+        <dt class="col-sm-2">Actividad</dt>
+        <dd class="col-sm-10">@ViewBag.ActivityName</dd>
+    </dl>
+
+    <form asp-action="Delete" method="post">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn btn-danger">Eliminar</button>
+        <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+    </form>
+</div>

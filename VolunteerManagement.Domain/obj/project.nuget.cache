@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0FkynbsopVE=",
+  "success": true,
+  "projectFilePath": "C:\\C#\\VolunteerManagement\\VolunteerManagement.Domain\\VolunteerManagement.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Cristopher Alejandro\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

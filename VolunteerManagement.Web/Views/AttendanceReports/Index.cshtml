@@ -1,0 +1,31 @@
+@model VolunteerManagement.Domain.Entities.AttendanceReportViewModel
+
+<h1>Reportes de Asistencia</h1>
+<a asp-action="Create" class="btn btn-success">Agregar nuevo reporte</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Voluntario</th>
+            <th>Actividad</th>
+            <th>Fecha</th>
+            <th>Notas</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Reports)
+        {
+            <tr>
+                <td>@Model.Volunteers.FirstOrDefault(v => v.Id == item.VolunteerId)?.FirstName</td>
+                <td>@Model.Activities.FirstOrDefault(a => a.Id == item.ActivityId)?.Name</td>
+                <td>@item.ParticipationDate.ToShortDateString()</td>
+                <td>@item.Notes</td>
+                <td>
+                    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

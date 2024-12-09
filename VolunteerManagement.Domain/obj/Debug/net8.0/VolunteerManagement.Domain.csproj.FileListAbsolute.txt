@@ -1,0 +1,12 @@
+C:\C#\VolunteerManagement\VolunteerManagement.Domain\bin\Debug\net8.0\VolunteerManagement.Domain.deps.json
+C:\C#\VolunteerManagement\VolunteerManagement.Domain\bin\Debug\net8.0\VolunteerManagement.Domain.dll
+C:\C#\VolunteerManagement\VolunteerManagement.Domain\bin\Debug\net8.0\VolunteerManagement.Domain.pdb
+C:\C#\VolunteerManagement\VolunteerManagement.Domain\obj\Debug\net8.0\VolunteerManagement.Domain.csproj.AssemblyReference.cache
+C:\C#\VolunteerManagement\VolunteerManagement.Domain\obj\Debug\net8.0\VolunteerManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\VolunteerManagement\VolunteerManagement.Domain\obj\Debug\net8.0\VolunteerManagement.Domain.AssemblyInfoInputs.cache
+C:\C#\VolunteerManagement\VolunteerManagement.Domain\obj\Debug\net8.0\VolunteerManagement.Domain.AssemblyInfo.cs
+C:\C#\VolunteerManagement\VolunteerManagement.Domain\obj\Debug\net8.0\VolunteerManagement.Domain.csproj.CoreCompileInputs.cache
+C:\C#\VolunteerManagement\VolunteerManagement.Domain\obj\Debug\net8.0\VolunteerManagement.Domain.dll
+C:\C#\VolunteerManagement\VolunteerManagement.Domain\obj\Debug\net8.0\refint\VolunteerManagement.Domain.dll
+C:\C#\VolunteerManagement\VolunteerManagement.Domain\obj\Debug\net8.0\VolunteerManagement.Domain.pdb
+C:\C#\VolunteerManagement\VolunteerManagement.Domain\obj\Debug\net8.0\ref\VolunteerManagement.Domain.dll

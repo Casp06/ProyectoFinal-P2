@@ -1,0 +1,17 @@
+C:\C#\VolunteerManagement\VolunteerManagement.Infrastructure\bin\Debug\net8.0\VolunteerManagement.Infrastructure.deps.json
+C:\C#\VolunteerManagement\VolunteerManagement.Infrastructure\bin\Debug\net8.0\VolunteerManagement.Infrastructure.runtimeconfig.json
+C:\C#\VolunteerManagement\VolunteerManagement.Infrastructure\bin\Debug\net8.0\VolunteerManagement.Infrastructure.dll
+C:\C#\VolunteerManagement\VolunteerManagement.Infrastructure\bin\Debug\net8.0\VolunteerManagement.Infrastructure.pdb
+C:\C#\VolunteerManagement\VolunteerManagement.Infrastructure\bin\Debug\net8.0\VolunteerManagement.Domain.dll
+C:\C#\VolunteerManagement\VolunteerManagement.Infrastructure\bin\Debug\net8.0\VolunteerManagement.Domain.pdb
+C:\C#\VolunteerManagement\VolunteerManagement.Infrastructure\obj\Debug\net8.0\VolunteerManagement.Infrastructure.csproj.AssemblyReference.cache
+C:\C#\VolunteerManagement\VolunteerManagement.Infrastructure\obj\Debug\net8.0\VolunteerManagement.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\VolunteerManagement\VolunteerManagement.Infrastructure\obj\Debug\net8.0\VolunteerManagement.Infrastructure.AssemblyInfoInputs.cache
+C:\C#\VolunteerManagement\VolunteerManagement.Infrastructure\obj\Debug\net8.0\VolunteerManagement.Infrastructure.AssemblyInfo.cs
+C:\C#\VolunteerManagement\VolunteerManagement.Infrastructure\obj\Debug\net8.0\VolunteerManagement.Infrastructure.csproj.CoreCompileInputs.cache
+C:\C#\VolunteerManagement\VolunteerManagement.Infrastructure\obj\Debug\net8.0\Voluntee.CFFF10FA.Up2Date
+C:\C#\VolunteerManagement\VolunteerManagement.Infrastructure\obj\Debug\net8.0\VolunteerManagement.Infrastructure.dll
+C:\C#\VolunteerManagement\VolunteerManagement.Infrastructure\obj\Debug\net8.0\refint\VolunteerManagement.Infrastructure.dll
+C:\C#\VolunteerManagement\VolunteerManagement.Infrastructure\obj\Debug\net8.0\VolunteerManagement.Infrastructure.pdb
+C:\C#\VolunteerManagement\VolunteerManagement.Infrastructure\obj\Debug\net8.0\VolunteerManagement.Infrastructure.genruntimeconfig.cache
+C:\C#\VolunteerManagement\VolunteerManagement.Infrastructure\obj\Debug\net8.0\ref\VolunteerManagement.Infrastructure.dll

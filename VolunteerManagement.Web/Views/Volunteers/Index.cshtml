@@ -1,0 +1,29 @@
+@model IEnumerable<VolunteerManagement.Domain.Entities.Volunteer>
+
+<h1>Voluntarios</h1>
+<a class="btn btn-success" asp-area="" asp-controller="Volunteers" asp-action="Create">Nuevo Voluntario</a>
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th>Nombre</th>
+            <th>Email</th>
+            <th>Telefono</th>
+            <th>Acciones</th>
+        </tr>
+    </thead> 
+    <tbody>
+        @foreach (var volunteer in Model)
+        {
+            <tr>
+                <td>@volunteer.FirstName @volunteer.LastName</td>
+                <td>@volunteer.Email</td>
+                <td>@volunteer.PhoneNumber</td>
+                <td>
+                    <a class="btn btn-warning" href="@Url.Action("Edit", "Volunteers", new { id = volunteer.Id })">Editar</a>
+                    <a class="btn btn-danger" href="@Url.Action("Delete", "Volunteers", new { id = volunteer.Id })">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>

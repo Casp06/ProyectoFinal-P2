@@ -1,0 +1,30 @@
+@model IEnumerable<VolunteerManagement.Domain.Entities.Organization>
+
+<h1>Organizations</h1>
+<a asp-action="Create" class="btn btn-success">Agregar nueva Organizacion</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Direcion</th>
+            <th>Telefono</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var org in Model)
+        {
+            <tr>
+                <td>@org.Name</td>
+                <td>@org.Address</td>
+                <td>@org.PhoneNumber</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@org.Id" class="btn btn-warning">Editar</a>
+                    <a asp-action="Delete" asp-route-id="@org.Id" class="btn btn-danger">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

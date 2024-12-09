@@ -1,0 +1,38 @@
+@model VolunteerManagement.Domain.Entities.AttendanceReport
+@using VolunteerManagement.Domain.Entities
+
+
+@{
+    var volunteers = (List<Volunteer>)ViewBag.Volunteers;
+    var activities = (List<Activity>)ViewBag.Activities;
+}
+
+<h1>Agregar nuevo reporte de asistencia</h1>
+
+<form asp-action="Create">
+    <div class="form-group">
+        <label for="VolunteerId">Voluntario</label>
+        <select asp-for="VolunteerId" class="form-control" asp-items="@(new SelectList(volunteers, "Id", "FirstName"))">
+            <option value="">Seleccionar Voluntario</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="ActivityId">Actividad</label>
+        <select asp-for="ActivityId" class="form-control" asp-items="@(new SelectList(activities, "Id", "Name"))">
+            <option value="">Seleccionar Actividad</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="ParticipationDate">Fecha de Participación</label>
+        <input asp-for="ParticipationDate" class="form-control" type="date" />
+    </div>
+
+    <div class="form-group">
+        <label for="Notes">Notas</label>
+        <textarea asp-for="Notes" class="form-control"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-success">Guardar</button>
+</form>

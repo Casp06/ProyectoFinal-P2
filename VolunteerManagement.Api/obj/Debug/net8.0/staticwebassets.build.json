@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Hbs66wNDGrQ8hNsYIr1i1V8QqujyzCq7snrMnPSROXI=",
+  "Source": "VolunteerManagement.Api",
+  "BasePath": "_content/VolunteerManagement.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

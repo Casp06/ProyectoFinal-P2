@@ -1,0 +1,27 @@
+@model VolunteerManagement.Domain.Entities.AttendanceReport
+
+<h1>Editar Reporte de Asistencia</h1>
+
+<form asp-action="Edit" method="post">
+    <div class="form-group mb-2">
+        <label for="VolunteerId">Voluntario</label>
+        <input class="form-control" type="text" id="VolunteerId" name="VolunteerId" value="@Model.VolunteerId" required />
+    </div>
+
+    <div class="form-group mb-2">
+        <label for="ActivityId">Actividad</label>
+        <input class="form-control" type="text" id="ActivityId" name="ActivityId" value="@Model.ActivityId" required />
+    </div>
+
+    <div class="form-group mb-2">
+        <label for="ParticipationDate">Fecha de Participación</label>
+        <input class="form-control" type="date" id="ParticipationDate" name="ParticipationDate" value="@Model.ParticipationDate.ToString("yyyy-MM-dd")" required />
+    </div>
+
+    <div class="form-group mb-2">
+        <label for="Notes">Notas</label>
+        <textarea class="form-control" id="Notes" name="Notes">@Model.Notes</textarea>
+    </div>
+
+    <button type="submit" class="btn btn-success">Guardar Cambios</button>
+</form>

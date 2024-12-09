@@ -1,0 +1,17 @@
+C:\C#\VolunteerManagement\VolunteerManagement.Application\bin\Debug\net8.0\VolunteerManagement.Application.deps.json
+C:\C#\VolunteerManagement\VolunteerManagement.Application\bin\Debug\net8.0\VolunteerManagement.Application.dll
+C:\C#\VolunteerManagement\VolunteerManagement.Application\bin\Debug\net8.0\VolunteerManagement.Application.pdb
+C:\C#\VolunteerManagement\VolunteerManagement.Application\bin\Debug\net8.0\VolunteerManagement.Domain.dll
+C:\C#\VolunteerManagement\VolunteerManagement.Application\bin\Debug\net8.0\VolunteerManagement.Infrastructure.dll
+C:\C#\VolunteerManagement\VolunteerManagement.Application\bin\Debug\net8.0\VolunteerManagement.Domain.pdb
+C:\C#\VolunteerManagement\VolunteerManagement.Application\bin\Debug\net8.0\VolunteerManagement.Infrastructure.pdb
+C:\C#\VolunteerManagement\VolunteerManagement.Application\obj\Debug\net8.0\VolunteerManagement.Application.csproj.AssemblyReference.cache
+C:\C#\VolunteerManagement\VolunteerManagement.Application\obj\Debug\net8.0\VolunteerManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\VolunteerManagement\VolunteerManagement.Application\obj\Debug\net8.0\VolunteerManagement.Application.AssemblyInfoInputs.cache
+C:\C#\VolunteerManagement\VolunteerManagement.Application\obj\Debug\net8.0\VolunteerManagement.Application.AssemblyInfo.cs
+C:\C#\VolunteerManagement\VolunteerManagement.Application\obj\Debug\net8.0\VolunteerManagement.Application.csproj.CoreCompileInputs.cache
+C:\C#\VolunteerManagement\VolunteerManagement.Application\obj\Debug\net8.0\Voluntee.13625213.Up2Date
+C:\C#\VolunteerManagement\VolunteerManagement.Application\obj\Debug\net8.0\VolunteerManagement.Application.dll
+C:\C#\VolunteerManagement\VolunteerManagement.Application\obj\Debug\net8.0\refint\VolunteerManagement.Application.dll
+C:\C#\VolunteerManagement\VolunteerManagement.Application\obj\Debug\net8.0\VolunteerManagement.Application.pdb
+C:\C#\VolunteerManagement\VolunteerManagement.Application\obj\Debug\net8.0\ref\VolunteerManagement.Application.dll

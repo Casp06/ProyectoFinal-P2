@@ -1,0 +1,22 @@
+@model VolunteerManagement.Domain.Entities.Organization
+
+<h1>Crear Organizacion</h1>
+
+
+<form asp-action="Create" method="post">
+    <div class="form-group mb-2">
+        <label for="Name">Titulo</label>
+        <input class="form-control" type="text" id="Name" name="Name" />
+    </div>
+    <div class="form-group mb-2">
+        <label for="Address">Ubicacion</label>
+        <input class="form-control" type="text" id="Address" name="Address" />
+    </div>
+    <div class="form-group mb-2">
+        <label for="PhoneNumber">Telefono</label>
+        <input class="form-control" type="text" id="PhoneNumber" name="PhoneNumber" />
+    </div>
+
+
+    <button class="btn btn-success" type="submit">Crear</button>
+</form>
